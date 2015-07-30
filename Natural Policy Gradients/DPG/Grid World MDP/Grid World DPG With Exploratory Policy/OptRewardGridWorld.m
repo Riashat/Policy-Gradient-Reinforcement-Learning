@@ -1,0 +1,17 @@
+mdp = ContinuousGridWorldMDP(0,0.99,100, 9)
+state1 = mdp.getStartState
+state2 = mdp.transit(state1, 1)
+state3 = mdp.transit(state2, 3)
+state4 = mdp.transit(state3, 1)
+state5 = mdp.transit(state4, 3)
+state6 = mdp.transit(state5, 1)
+state7 = mdp.transit(state6, 3)
+state8 = mdp.transit(state7, 1)
+state9 = mdp.transit(state8, 3)
+state10 = mdp.transit(state9, 1)
+state11 = mdp.transit(state10, 3)
+state12 = mdp.transit(state11, 1)
+state13 = mdp.transit(state12, 3)
+state14 = mdp.transit(state13, 1)
+state15 = mdp.transit(state14, 3)
+total_reward = mdp.reward(state1,1)+mdp.reward(state2,1)+mdp.reward(state3,1)+mdp.reward(state4,1)+mdp.reward(state5,1)+mdp.reward(state6,1)+mdp.reward(state7,1)+mdp.reward(state8,1)+mdp.reward(state9,1)+mdp.reward(state10,1)+mdp.reward(state11,1)+mdp.reward(state12,1)+mdp.reward(state13,1 )+mdp.reward(state14,1 )+mdp.reward(state15,1)+mdp.reward(state15, 1)*85
