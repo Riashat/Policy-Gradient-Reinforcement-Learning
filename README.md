@@ -1,6 +1,6 @@
-Policy-Gradient-Methods\\
+Policy-Gradient-Methods\
+This repo contains code for actor-critic policy gradient methods in reinforcement learning (using least-squares temporal differnece learning with a linear function approximator) Contains code for:\
 
-This repo contains code for actor-critic policy gradient methods in reinforcement learning (using least-squares temporal differnece learning with a linear function approximator) Contains code for:
 The algorithms we consider include:
 	1.	Episodic REINFORCE (Monte-Carlo) Actor-Critic Stochastic Policy Gradient
 	2.	Vanilla Stochastic Policy Gradient
