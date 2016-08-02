@@ -1,6 +1,6 @@
 THis repository contains code for Policy Gradient Methods in Reinforcement Learning
 
-Islam R., Lever G., Shawe-Taylor J, Improving Convergence of Deterministic Policy Gradient Methods in Reinforcement Learning
+Islam R., Lever G., Shawe-Taylor J., Improving Convergence of Deterministic Policy Gradient Methods in Reinforcement Learning. 2015
 
 1. Stochastic Policy Gradients
 2. Deterministic Policy Gradients
